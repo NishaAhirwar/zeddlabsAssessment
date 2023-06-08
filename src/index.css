@@ -5,9 +5,59 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-align: center;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+.container-odd{
+  padding: 30px 70px;
+  background-color: #C4DFDF;
+}
+
+.container-even{
+  padding: 30px 70px;
+  background-color: #F8F6F4;
+}
+
+.ques-odd{
+  background-color: #116A7B;
+  margin: 10px;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 10px;
+}
+
+.ques-even{
+  background-color: #C4DFDF;
+  margin: 10px;
+  padding: 10px 20px;
+  color: #116A7B;
+  border-radius: 10px;
+
+}
+
+.theme-div{
+  padding: 20px 70px;
+  margin: 20px;
+  border-radius: 30px;
+}
+
+
+
+.grid-container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  padding: 10px;
+  text-align: left;
+}
+
+.item1{
+  grid-column-start: 1;
+  grid-column-end: 3;
 }
