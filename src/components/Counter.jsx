@@ -4,10 +4,10 @@ import CountContext from "../context/context";
  const Counter = () => {
     let {count, setCount} = useContext(CountContext);
   return (
-    <div>
+    <div className='container-odd'>
         <h1>Counter Component</h1>
-        <button onClick={()=>setCount(count++)}>increment</button>
-        <button onClick={()=>setCount(count--)}>decrement</button>
+        <button className='btn' onClick={()=>setCount(count++)}>increment</button>
+        <button className='btn' onClick={()=>setCount(count--)}>decrement</button>
     </div>
   )
 }

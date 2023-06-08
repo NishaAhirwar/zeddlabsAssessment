@@ -8,6 +8,15 @@ body {
   text-align: center;
 }
 
+input{
+  border: none;
+  border-radius: 10px;
+  padding: 10px 40px;
+  text-decoration: none;
+  box-sizing: border-box;
+  outline-color: #116A7B;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -17,11 +26,13 @@ code {
 .container-odd{
   padding: 30px 70px;
   background-color: #C4DFDF;
+  color:#116A7B;
 }
 
 .container-even{
   padding: 30px 70px;
-  background-color: #F8F6F4;
+  background-color: #116A7B;
+  color: #C4DFDF;
 }
 
 .ques-odd{
@@ -34,7 +45,7 @@ code {
 
 .ques-even{
   background-color: #C4DFDF;
-  margin: 10px;
+  margin: 10px 50px;
   padding: 10px 20px;
   color: #116A7B;
   border-radius: 10px;
@@ -47,8 +58,6 @@ code {
   border-radius: 30px;
 }
 
-
-
 .grid-container{
   display: grid;
   grid-template-columns: auto auto auto;
@@ -60,4 +69,50 @@ code {
 .item1{
   grid-column-start: 1;
   grid-column-end: 3;
+}
+
+.user{
+  margin:auto 20%;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  color: #116A7B;
+  border-radius: 20px;
+
+}
+
+.btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  background: #73A9AD;
+  padding: 10px 40px;
+  text-decoration: none;
+  border:none;
+  margin: auto 20px;
+}
+
+.btn:hover {
+  background: #116A7B;
+  text-decoration: none;
+}
+
+.btn-dark {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #116A7B;
+  background: #73A9AD;
+  padding: 10px 40px;
+  text-decoration: none;
+  border: #116A7B;
+  margin: auto 20px;
+
+}
+
+.btn-dark:hover {
+  background: #C4DFDF;
+  text-decoration: none;
 }

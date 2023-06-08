@@ -8,8 +8,8 @@ const ParentOfCounter = () => {
   return (
     <div>
         <CountContext.Provider value ={{count, setCount}}>
-        <h1>ParentOfCounter</h1>
-        <h4>Count : {count}</h4>
+        <h1>Parent Of Counter Component</h1>
+        <h3>Count : {count}</h3>
         <Counter />
         </CountContext.Provider>  
     </div>

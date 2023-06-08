@@ -20,15 +20,17 @@ const User = () => {
     
   return (
     <div>
+      <h1>List of users</h1>
+      <div className='user'>
         
             { users.map((user, index)=>
            { return <div key={index} id={index}>{user.name}</div>}
             )}
         
-        
+       </div> 
         <div style={{padding: "20px"}} >
         <input type="text"  value={query}  placeholder=" Enter username" onChange={(e)=>setQuery(e.target.value)} />
-        <button onClick={handleClick}>Add</button>
+        <button className='btn-dark' onClick={handleClick}>Add user</button>
         </div>
         
         

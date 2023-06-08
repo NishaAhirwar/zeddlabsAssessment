@@ -8,7 +8,7 @@ const ThemeComponent=()=>{
     useEffect(()=>{
         setTimeout(()=>{
             setMessage("Nice to meet you. Bye!!")
-        },5000)
+        },10000)
     },[])
     return(
         <>
@@ -34,7 +34,7 @@ const ReactHooks = () => {
     <div>
         <ThemeContext.Provider value={theme}>
         <ThemeComponent />
-        <button onClick={toggleTheme}>Toggle Theme</button>
+        <button className='btn' onClick={toggleTheme}>Toggle Theme</button>
         </ThemeContext.Provider>
         
     </div>

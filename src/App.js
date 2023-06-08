@@ -21,13 +21,13 @@ function App() {
     <span>Click to get value passed to Class Component</span>
     </div>
     <div>
-    <button onClick={()=>setComp(0)}>Click!</button>
+    <button className='btn' onClick={()=>setComp(0)}>Click!</button>
     </div>
     <div className='item1'>
     <span>Click to get value passed to Function Component</span>
     </div>
     <div>
-    <button onClick={()=>setComp(1)}>Click!</button>
+    <button className='btn' onClick={()=>setComp(1)}>Click!</button>
     </div>
     
     </div>
@@ -36,7 +36,7 @@ function App() {
       </div>
 
       <div className='container-even'>
-        <div className='ques-odd'>Used useState hook to access and set state and also used useEffect hook for fetching userlist from API</div>
+        <div className='ques-even'>Used useState hook to access and set state and also used useEffect hook for fetching userlist from API</div>
         <div style={{padding: "10px 300px"}}>
           <User />
           </div>
@@ -54,6 +54,7 @@ function App() {
       </div>
 
       <div className='container-even'>
+        <div className='ques-even'>Passing data from parent component to child component and child component to parent component</div>
       <ParentOfCounter />
 
       </div>
