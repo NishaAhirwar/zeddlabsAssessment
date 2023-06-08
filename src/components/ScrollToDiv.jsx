@@ -5,7 +5,7 @@ const ScrollToDiv = () => {
 
   return (
     <div>
-        <div style={{padding:"100px", backgroundColor:"#116A7B"}}>
+        <div className='container-even'>
         <div className='ques-even'>Using Div refernce to scroll to target Div</div>
             <h1>Click to scroll to next div</h1>
             <button className="btn-dark" onClick={()=>ref.current.scrollIntoView({behavior:"smooth"})}>click me!</button>

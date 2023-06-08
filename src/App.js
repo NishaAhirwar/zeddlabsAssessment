@@ -15,29 +15,29 @@ function App() {
     <div className='container-odd'>
     <div className='ques-odd'>Class Component and Function Component Example</div>
     <input type="text" value={uname} placeholder='Enter username' onChange={(event)=>setName(event.target.value)} />
-    <div className='grid-container'>
     
-    <div className='item1'>
-    <span>Click to get value passed to Class Component</span>
-    </div>
-    <div>
+    
+    
+    <h3>Click to get value passed to Class Component</h3>
+    
+    
     <button className='btn' onClick={()=>setComp(0)}>Click!</button>
-    </div>
-    <div className='item1'>
-    <span>Click to get value passed to Function Component</span>
-    </div>
-    <div>
-    <button className='btn' onClick={()=>setComp(1)}>Click!</button>
-    </div>
     
-    </div>
+    
+    <h3>Click to get value passed to Function Component</h3>
+    
+    
+    <button className='btn' onClick={()=>setComp(1)}>Click!</button>
+    
+    
+    
     {isClass===3 ? null :
       isClass===0 ? <ClassChild name= {uname} /> : <ClassFunctional name={uname} /> }
       </div>
 
       <div className='container-even'>
         <div className='ques-even'>Used useState hook to access and set state and also used useEffect hook for fetching userlist from API</div>
-        <div style={{padding: "10px 300px"}}>
+        <div >
           <User />
           </div>
 

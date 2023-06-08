@@ -11,10 +11,11 @@ body {
 input{
   border: none;
   border-radius: 10px;
-  padding: 10px 40px;
+  padding: 10px 20px;
   text-decoration: none;
   box-sizing: border-box;
   outline-color: #116A7B;
+  margin: 10px;
 }
 
 code {
@@ -38,15 +39,15 @@ code {
 .ques-odd{
   background-color: #116A7B;
   margin: 10px;
-  padding: 10px 20px;
+  padding: 10px ;
   color: white;
   border-radius: 10px;
 }
 
 .ques-even{
   background-color: #C4DFDF;
-  margin: 10px 50px;
-  padding: 10px 20px;
+  margin: 10px ;
+  padding: 10px ;
   color: #116A7B;
   border-radius: 10px;
 
@@ -58,25 +59,13 @@ code {
   border-radius: 30px;
 }
 
-.grid-container{
-  display: grid;
-  grid-template-columns: auto auto auto;
-  gap: 10px;
-  padding: 10px;
-  text-align: left;
-}
-
-.item1{
-  grid-column-start: 1;
-  grid-column-end: 3;
-}
 
 .user{
-  margin:auto 20%;
-  padding: 10px 20px;
+  padding: 10px;
   background-color: #ffffff;
   color: #116A7B;
   border-radius: 20px;
+  margin: auto 70px;
 
 }
 
@@ -90,7 +79,7 @@ code {
   padding: 10px 40px;
   text-decoration: none;
   border:none;
-  margin: auto 20px;
+  margin: 10px 20px;
 }
 
 .btn:hover {
@@ -108,7 +97,7 @@ code {
   padding: 10px 40px;
   text-decoration: none;
   border: #116A7B;
-  margin: auto 20px;
+  margin: 10px 20px;
 
 }
 
