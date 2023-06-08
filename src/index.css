@@ -65,7 +65,14 @@ code {
   background-color: #ffffff;
   color: #116A7B;
   border-radius: 20px;
-  margin: auto 70px;
+  
+
+}
+
+.Counter{
+  background-color: #C4DFDF;
+  color:#116A7B;
+  padding: 10px;
 
 }
 
@@ -76,7 +83,7 @@ code {
   font-family: Arial;
   color: #ffffff;
   background: #73A9AD;
-  padding: 10px 40px;
+  padding: 10px 20px;
   text-decoration: none;
   border:none;
   margin: 10px 20px;
@@ -94,7 +101,7 @@ code {
   font-family: Arial;
   color: #116A7B;
   background: #73A9AD;
-  padding: 10px 40px;
+  padding: 10px 20px;
   text-decoration: none;
   border: #116A7B;
   margin: 10px 20px;
